@@ -1,0 +1,14 @@
+name: Estructuras
+version: 1.0
+main: me.estructuras.Estructuras
+api-version: '1.21'
+description: Coloca fogatas gigantes y otras estructuras decorativas
+commands:
+  estructura:
+    description: Coloca una estructura
+    usage: /estructura <nombre|lista|undo>
+    aliases: [est]
+    permission: estructuras.use
+permissions:
+  estructuras.use:
+    default: op
